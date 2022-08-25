@@ -431,6 +431,16 @@
       "md5": ""
     },
     {
+      "name": "Mixed Novel",
+      "fileName": "MixedNovel",
+      "imageURL": "https://raw.githubusercontent.com/Ookuchi/extensions/dev/icons/MixedNovel.png",
+      "id":4825,
+      "lang":"en",
+      "ver": "1.0.0",
+      "libVer":"1.0.0",
+      "md5":""
+    },
+    {
       "name": "LatestNovel",
       "fileName": "Latestnovel",
       "imageURL": "https://latestnovel.net/wp-content/themes/madara/images/logo.png",
