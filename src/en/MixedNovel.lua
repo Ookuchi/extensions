@@ -17,43 +17,5 @@ return Require("Madara")("https://mixednovel.net/",{
 
     
 
-    genres = {
-        "Action",
-        "Adult",
-        "Adventure",
-        "Comedy",
-        "Drama",
-        "Ecchi",
-        "Fantasy",
-        "Gender Bender",
-        "Harem",
-        "Historical",
-        "Horror",
-        "Josei",
-        "Magical Realism",
-        "Martial Arts",
-        "Mature",
-        "Mecha",
-        "Mystery",
-        "Psychological",
-        "Romance",
-        "School Life",
-        "Sci-fi",
-        "Seinen",
-        "Shoujo",
-        "Shoujo Ai",
-        "Shounen",
-        "Shounen Ai",
-        "Slice of Life",
-        "Smut",
-        "Sports",
-        "Supernatural",
-        "Tragedy",
-        "Video Games",
-        "Wuxia",
-        "Xianxia",
-        "Xuanhuan",
-        "Yaoi",
-        "Yuri"
-    }
+    genres = {}
 })
