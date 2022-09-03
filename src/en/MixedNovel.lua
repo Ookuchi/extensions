@@ -8,7 +8,7 @@ return Require("Madara")("https://mixednovel.net/",{
     -- defaults values
     latestNovelSel = "div.col-12.col-md-6.badge-pos-2",
     ajaxUsesFormData = true,
-    ajaxFormDataSel = "div#manga-chapters-holder",
+    ajaxFormDataSel = "li.wp-manga-chapter",
     ajaxFormDataAttr = "data-id",
     ajaxFormDataUrl = "/wp-admin/admin-ajax.php",
     novelListingURLPath = "novel",
