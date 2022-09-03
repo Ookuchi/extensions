@@ -10,7 +10,7 @@ return Require("Madara")("https://mixednovel.net/",{
     ajaxUsesFormData = true,
     ajaxFormDataSel = "div#manga-chapters-holder",
     ajaxFormDataAttr = "data-id",
-    ajaxFormDataUrl = "/wp-admin/admin-ajax.php"
+    ajaxFormDataUrl = "/wp-admin/admin-ajax.php",
     novelListingURLPath = "novel",
 	shrinkURLNovel = "novel",
 	searchHasOper = false,
