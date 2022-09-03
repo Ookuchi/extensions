@@ -7,8 +7,9 @@ return Require("Madara")("https://mixednovel.net/",{
 
     -- defaults values
     latestNovelSel = "div.col-12.col-md-6.badge-pos-2",
+    chaptersListSelector= "li.wp-manga-chapter    ",
     ajaxUsesFormData = true,
-    ajaxFormDataSel = "li.wp-manga-chapter",
+    ajaxFormDataSel = "div#manga-chapters-holder",
     ajaxFormDataAttr = "data-id",
     ajaxFormDataUrl = "/wp-admin/admin-ajax.php",
     novelListingURLPath = "novel",
@@ -17,5 +18,43 @@ return Require("Madara")("https://mixednovel.net/",{
 
     
 
-    genres = {}
+    genres = {
+        "Action",
+        "Adult",
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Ecchi",
+        "Fantasy",
+        "Gender Bender",
+        "Harem",
+        "Historical",
+        "Horror",
+        "Josei",
+        "Magical Realism",
+        "Martial Arts",
+        "Mature",
+        "Mecha",
+        "Mystery",
+        "Psychological",
+        "Romance",
+        "School Life",
+        "Sci-fi",
+        "Seinen",
+        "Shoujo",
+        "Shoujo Ai",
+        "Shounen",
+        "Shounen Ai",
+        "Slice of Life",
+        "Smut",
+        "Sports",
+        "Supernatural",
+        "Tragedy",
+        "Video Games",
+        "Wuxia",
+        "Xianxia",
+        "Xuanhuan",
+        "Yaoi",
+        "Yuri"
+    }
 })
