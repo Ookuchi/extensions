@@ -3,11 +3,13 @@
 return Require("Madara")("https://mixednovel.net/",{
     id = 4825,
     name = "Mixed Novel",
-    imageURL = "https://raw.githubusercontent.com/Ookuchi/extensions/dev/icons/MixedNovel.png",
+    imageURL = "https://mixednovel.net/wp-content/themes/madara/images/logo.png",
 
     -- defaults values
-    latestNovelSel = "div.col-12.col-md-6.badge-pos-1",
+    latestNovelSel = "div.col-12.col-md-6.badge-pos-2",
     ajaxUsesFormData = true,
+
+    
 
     genres = {
         "Action",
@@ -22,7 +24,6 @@ return Require("Madara")("https://mixednovel.net/",{
         "Historical",
         "Horror",
         "Josei",
-        "LGBT",
         "Magical Realism",
         "Martial Arts",
         "Mature",
